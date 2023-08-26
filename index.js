@@ -1,9 +1,6 @@
 import { program } from "commander";
 import contactService from "./contacts.js";
 
-// listContacts, getContactById, removeContact, addContact
-// console.log(await contactService.listContacts());
-
 program
   .option("-a, --action <type>", "choose action")
   .option("-i, --id <type>", "user id")
