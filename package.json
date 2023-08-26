@@ -1,15 +1,27 @@
 {
-  "name": "node-js-ex-1",
+  "name": "js-ex-1",
   "version": "1.0.0",
   "description": "My first project!",
+  "author": "TsarenkoVTS",
+  "license": "ISC",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
     "url": "node-js-ex-1"
   },
-  "author": "TsarenkoVTS",
-  "license": "ISC"
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^4.0.2"
+  }
 }
