@@ -1,7 +1,5 @@
 # node-js-ex-1
 
-My first project! on node JS!
-
 add
 https://ibb.co/VjvY4dW
 
